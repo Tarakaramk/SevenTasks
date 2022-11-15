@@ -15,8 +15,11 @@ public class Main {
         pn.removal(num,arr);
         System.out.println("");
         pn.frequency("tarakakoppada");
-
+        System.out.println("Even Numbers");
         EvenIterator ei = new EvenIterator();
         ei.numberIterator();
+        System.out.println("Unique Number first index");
+        UniqueNumber un = new UniqueNumber();
+        System.out.println((char)un.uniqueFrequency("welcome to the world"));
     }
 }
