@@ -20,6 +20,6 @@ public class Main {
         ei.numberIterator();
         System.out.println("Unique Number first index");
         UniqueNumber un = new UniqueNumber();
-        System.out.println((char)un.uniqueFrequency("welcome to the world"));
+        System.out.println((char)un.uniqueFrequency("welcome to the netcracker"));
     }
 }

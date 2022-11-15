@@ -15,7 +15,7 @@ public class PrimeNumbers {
 
         int[] array = new int[arr.length-1];
         for(int i=0,k=0;i<arr.length;i++){
-            if(i!=num){
+            if(arr[i]!=num){
             array[k]=arr[i];
             k++;
             }
