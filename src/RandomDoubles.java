@@ -10,7 +10,7 @@ public class RandomDoubles {
         for(int i=0;i<10;i++){
             a=Math.random();
             arr[i]=a;
-            System.out.println(arr[i]);
+            //System.out.println(arr[i]);
             if(arr[i]>max)
                 max = arr[i];
 
@@ -36,7 +36,7 @@ public class RandomDoubles {
                     arr[j]=temp;
                 }
             }
-        System.out.println("Bubble sort");
+        System.out.println("Bubble sort:");
         for(int i=0;i<length;i++){
             System.out.print(arr[i]+" ");
         }
